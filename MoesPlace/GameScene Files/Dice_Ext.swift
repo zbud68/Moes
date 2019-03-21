@@ -219,6 +219,7 @@ extension GameScene {
     func getFaceValues() {
         for die in currentDiceArray where die.rollable == true {
             die.faceValue = Int(arc4random_uniform(6)+1)
+        }
     }
     
     func rollDiceAction(die: Die, isComplete: (Bool) -> Void) {

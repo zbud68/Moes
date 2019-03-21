@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Farkle.xcodeproj">
+      location = "self:/Users/mark/Desktop/Current Projects/Farkle/MoesPlace.xcodeproj">
    </FileRef>
 </Workspace>

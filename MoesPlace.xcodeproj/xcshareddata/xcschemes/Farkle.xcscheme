@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D63969A220165CB004B6718"
-               BuildableName = "Farkle.app"
-               BlueprintName = "Farkle"
-               ReferencedContainer = "container:Farkle.xcodeproj">
+               BuildableName = "MoesPlace.app"
+               BlueprintName = "MoesPlace"
+               ReferencedContainer = "container:MoesPlace.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D63969A220165CB004B6718"
-            BuildableName = "Farkle.app"
-            BlueprintName = "Farkle"
-            ReferencedContainer = "container:Farkle.xcodeproj">
+            BuildableName = "MoesPlace.app"
+            BlueprintName = "MoesPlace"
+            ReferencedContainer = "container:MoesPlace.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D63969A220165CB004B6718"
-            BuildableName = "Farkle.app"
-            BlueprintName = "Farkle"
-            ReferencedContainer = "container:Farkle.xcodeproj">
+            BuildableName = "MoesPlace.app"
+            BlueprintName = "MoesPlace"
+            ReferencedContainer = "container:MoesPlace.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D63969A220165CB004B6718"
-            BuildableName = "Farkle.app"
-            BlueprintName = "Farkle"
-            ReferencedContainer = "container:Farkle.xcodeproj">
+            BuildableName = "MoesPlace.app"
+            BlueprintName = "MoesPlace"
+            ReferencedContainer = "container:MoesPlace.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -33,11 +33,11 @@
 /* Begin PBXFileReference section */
 		4D10179A2213A9170060FBA2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		4D10179E2213C4730060FBA2 /* DieFaceDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieFaceDef.swift; sourceTree = "<group>"; };
-		4D374D19221DD69800834241 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "Farkle/Story Boards/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		4D374D19221DD69800834241 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "MoesPlace/Story Boards/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 		4D374D1C221DD6E800834241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D374D1E221E104A00834241 /* Menus_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus_Ext.swift; sourceTree = "<group>"; };
 		4D4FFA70222348190002E1CB /* GenericFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFunctions.swift; sourceTree = "<group>"; };
-		4D63969B220165CB004B6718 /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D63969B220165CB004B6718 /* MoesPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoesPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D63969E220165CB004B6718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D6396A2220165CB004B6718 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4D6396A4220165CB004B6718 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		4D639692220165CB004B6718 = {
 			isa = PBXGroup;
 			children = (
-				4D63969D220165CB004B6718 /* Farkle */,
+				4D63969D220165CB004B6718 /* MoesPlace */,
 				4D63969C220165CB004B6718 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,12 +89,12 @@
 		4D63969C220165CB004B6718 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D63969B220165CB004B6718 /* Farkle.app */,
+				4D63969B220165CB004B6718 /* MoesPlace.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D63969D220165CB004B6718 /* Farkle */ = {
+		4D63969D220165CB004B6718 /* MoesPlace */ = {
 			isa = PBXGroup;
 			children = (
 				4D6396AB220165CE004B6718 /* Assets.xcassets */,
@@ -104,7 +104,7 @@
 				4DE4A23C22123CB500671D07 /* Support Files */,
 				4D6396B0220165CE004B6718 /* Info.plist */,
 			);
-			path = Farkle;
+			path = MoesPlace;
 			sourceTree = "<group>";
 		};
 		4DE4A22F2211D7CE00671D07 /* GameScene Files */ = {
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D63969A220165CB004B6718 /* Farkle */ = {
+		4D63969A220165CB004B6718 /* MoesPlace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D6396B3220165CE004B6718 /* Build configuration list for PBXNativeTarget "Farkle" */;
+			buildConfigurationList = 4D6396B3220165CE004B6718 /* Build configuration list for PBXNativeTarget "MoesPlace" */;
 			buildPhases = (
 				4D639697220165CB004B6718 /* Sources */,
 				4D639698220165CB004B6718 /* Frameworks */,
@@ -175,9 +175,9 @@
 			);
 			dependencies = (
 			);
-			name = Farkle;
-			productName = Farkle;
-			productReference = 4D63969B220165CB004B6718 /* Farkle.app */;
+			name = MoesPlace;
+			productName = MoesPlace;
+			productReference = 4D63969B220165CB004B6718 /* MoesPlace.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D639696220165CB004B6718 /* Build configuration list for PBXProject "Farkle" */;
+			buildConfigurationList = 4D639696220165CB004B6718 /* Build configuration list for PBXProject "MoesPlace" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,7 +208,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D63969A220165CB004B6718 /* Farkle */,
+				4D63969A220165CB004B6718 /* MoesPlace */,
 			);
 		};
 /* End PBXProject section */
@@ -390,15 +390,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AB8Q7N9TL;
-				INFOPLIST_FILE = Farkle/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MoesPlace/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TekKnowledge.Farkle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TekKnowledge.MoesPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,22 +408,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AB8Q7N9TL;
-				INFOPLIST_FILE = Farkle/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MoesPlace/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TekKnowledge.Farkle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TekKnowledge.MoesPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D639696220165CB004B6718 /* Build configuration list for PBXProject "Farkle" */ = {
+		4D639696220165CB004B6718 /* Build configuration list for PBXProject "MoesPlace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D6396B1220165CE004B6718 /* Debug */,
@@ -432,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D6396B3220165CE004B6718 /* Build configuration list for PBXNativeTarget "Farkle" */ = {
+		4D6396B3220165CE004B6718 /* Build configuration list for PBXNativeTarget "MoesPlace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D6396B4220165CE004B6718 /* Debug */,
