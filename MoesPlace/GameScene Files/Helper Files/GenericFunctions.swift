@@ -22,6 +22,7 @@ extension GameScene {
         var results = [Int]()
         var pointsScored = Int()
 
+        /*
         for die in dice {
             switch die.countThisRoll {
             case 1...2:
@@ -38,6 +39,7 @@ extension GameScene {
                 break
             }
         }
+         */
 
         for (key, value) in scoringCombos {
             switch key {
